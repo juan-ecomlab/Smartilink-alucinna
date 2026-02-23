@@ -57,8 +57,7 @@ window.addEventListener('load', () => {
             agregarEmail(form.elements[0].value, "alucinna")
             Swal.fire({
                 title: "Correo enviado con éxito a <b>" + form.elements[0].value + "</b><br> Por favor, revisá tu casilla",
-                imageUrl: "img/regalo.svg",
-                background: "#fff",
+                background: "#fff url(img/bg-modal-alucinna.png)",
                 imageAlt: "Regalo",
                 showConfirmButton: false,
                 showCloseButton: true,
